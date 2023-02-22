@@ -1,4 +1,4 @@
-import * as C from './styles';
+import { Container, Info, Name, Level, Email, Github } from './styles';
 
 type Props = {
   name: string;
@@ -9,13 +9,13 @@ type Props = {
 
 export const FinalInfo = ({ name, level, email, github }: Props) => {
   return (
-    <C.Container>
-      <C.Info>
-        <C.Name>Nome: {name}</C.Name>
-        <C.Level>Nível: {level === 0 ? 'Iniciante' : 'Programador'}</C.Level>
-        <C.Email>Email: {email}</C.Email>
-        <C.Github>GitHub: {github}</C.Github>
-      </C.Info>
-    </C.Container>
+    <Container>
+      <Info>
+        <Name>Nome: {name}</Name>
+        <Level>Nível: {level === 0 ? 'Iniciante' : 'Programador'}</Level>
+        <Email>Email: {email}</Email>
+        <Github>GitHub: {github}</Github>
+      </Info>
+    </Container>
   );
 };

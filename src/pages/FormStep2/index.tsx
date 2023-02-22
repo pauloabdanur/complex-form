@@ -1,5 +1,5 @@
 import { useNavigate, Link } from 'react-router-dom';
-import * as C from './styles';
+import { Container } from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { useEffect } from 'react';
@@ -37,7 +37,7 @@ export const FormStep2 = () => {
 
   return (
     <Theme>
-      <C.Container>
+      <Container>
         <p>Passo 2/3</p>
         <h1>{state.name}, o que melhor descreve você?</h1>
         <p>
@@ -66,7 +66,7 @@ export const FormStep2 = () => {
           Voltar
         </Link>
         <button onClick={handleNextStep}>Próximo</button>
-      </C.Container>
+      </Container>
     </Theme>
   );
 };

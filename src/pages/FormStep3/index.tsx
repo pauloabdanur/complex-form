@@ -1,5 +1,5 @@
 import { useNavigate, Link } from 'react-router-dom';
-import * as C from './styles';
+import { Container } from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, useEffect } from 'react';
@@ -43,7 +43,7 @@ export const FormStep3 = () => {
 
   return (
     <Theme>
-      <C.Container>
+      <Container>
         <p>Passo 3/3</p>
         <h1>Legal {state.name}! Onde te achamos?</h1>
         <p>Preencha com seus dados para conseguirmos entrar em contato.</p>
@@ -72,7 +72,7 @@ export const FormStep3 = () => {
           Voltar
         </Link>
         <button onClick={handleNextStep}>Finalizar Cadastro</button>
-      </C.Container>
+      </Container>
     </Theme>
   );
 };

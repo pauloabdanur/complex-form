@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import * as C from './styles';
+import { Container } from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, useEffect } from 'react';
@@ -32,7 +32,7 @@ export const FormStep1 = () => {
 
   return (
     <Theme>
-      <C.Container>
+      <Container>
         <p>Passo 1/3</p>
         <h1>Vamos começar com seu nome</h1>
         <p>Preencha o campo abaixo com seu nome completo.</p>
@@ -50,7 +50,7 @@ export const FormStep1 = () => {
         </label>
 
         <button onClick={handleNextStep}>Próximo</button>
-      </C.Container>
+      </Container>
     </Theme>
   );
 };
