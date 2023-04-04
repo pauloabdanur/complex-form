@@ -18,6 +18,7 @@ export const FormStep2 = () => {
         payload: 2,
       });
     }
+    // eslint-disable-next-line
   }, []);
 
   const handleNextStep = () => {

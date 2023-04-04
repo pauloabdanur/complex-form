@@ -13,6 +13,7 @@ export const FormStep1 = () => {
       type: FormActions.setCurrentStep,
       payload: 1,
     });
+    // eslint-disable-next-line
   }, []);
 
   const handleNextStep = () => {
