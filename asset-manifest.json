@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/complex-form/static/css/main.e6c13ad2.css",
-    "main.js": "/complex-form/static/js/main.5e7ccc71.js",
+    "main.js": "/complex-form/static/js/main.a6030b3e.js",
     "static/js/787.7af4b02a.chunk.js": "/complex-form/static/js/787.7af4b02a.chunk.js",
     "static/media/book.svg": "/complex-form/static/media/book.42eae963cdea409ab6518b57c47db98e.svg",
     "static/media/profile.svg": "/complex-form/static/media/profile.813d4fd37a9d1418ded4fa3bea065590.svg",
     "index.html": "/complex-form/index.html",
     "static/media/mail.svg": "/complex-form/static/media/mail.42fe45d20eca53f3284e54b7e2b0438b.svg",
     "main.e6c13ad2.css.map": "/complex-form/static/css/main.e6c13ad2.css.map",
-    "main.5e7ccc71.js.map": "/complex-form/static/js/main.5e7ccc71.js.map",
+    "main.a6030b3e.js.map": "/complex-form/static/js/main.a6030b3e.js.map",
     "787.7af4b02a.chunk.js.map": "/complex-form/static/js/787.7af4b02a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.5e7ccc71.js"
+    "static/js/main.a6030b3e.js"
   ]
 }
