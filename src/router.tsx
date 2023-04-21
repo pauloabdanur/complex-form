@@ -7,10 +7,9 @@ import { FormStep4 } from './pages/FormStep4';
 
 export const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/complex-form">
       <Routes>
         <Route path="/" element={<FormStep1 />} />
-        <Route path="/complex-form" element={<FormStep1 />} />
         <Route path="/page2" element={<FormStep2 />} />
         <Route path="/page3" element={<FormStep3 />} />
         <Route path="/page4" element={<FormStep4 />} />
